@@ -41,9 +41,6 @@ export function ProductDetail({title, content, learnMore}) {
           </Disclosure.Panel>
         </>
       )}
-      const metafield = product.metafield;
-
-  return <Metafield data={metafield} />;
     </Disclosure>
   );
 }
